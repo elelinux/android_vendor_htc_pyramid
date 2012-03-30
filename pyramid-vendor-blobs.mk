@@ -39,10 +39,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
   vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
-  vendor/htc/pyramid/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/pyramid/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
-  vendor/htc/pyramid/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
   vendor/htc/pyramid/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/htc/pyramid/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/pyramid/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
