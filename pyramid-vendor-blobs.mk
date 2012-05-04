@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/pyramid/proprietary/etc/vpimg:system/etc/vpimg \
+  vendor/htc/pyramid/proprietary/etc/thermald.conf:system/etc/thermald.conf \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
@@ -32,6 +33,8 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
+  vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
+  vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
