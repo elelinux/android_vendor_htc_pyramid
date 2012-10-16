@@ -18,8 +18,7 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/htc/pyramid/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -27,11 +26,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
-  vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-  vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
@@ -76,5 +73,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
-  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/pyramid/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so
