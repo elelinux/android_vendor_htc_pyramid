@@ -18,7 +18,8 @@
 PRODUCT_COPY_FILES += \
 	vendor/htc/pyramid/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+	vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+        vendor/htc/pyramid/proprietary/lib/hw/camera.vendor.msm8660.so:obj/lib/hw/camera.vendor.msm8660.so
 
 PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/etc/agps_rm:system/etc/agps_rm \
@@ -30,13 +31,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
-  vendor/htc/pyramid/proprietary/bin/rild:system/bin/rild \
   vendor/htc/pyramid/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
   vendor/htc/pyramid/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
   vendor/htc/pyramid/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/pyramid/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/pyramid/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/pyramid/proprietary/lib/hw/camera.default.so:system/lib/hw/vendor-camera.default.so \
+  vendor/htc/pyramid/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
   vendor/htc/pyramid/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/pyramid/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/pyramid/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -54,13 +54,12 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/pyramid/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
   vendor/htc/pyramid/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-  vendor/htc/pyramid/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-  vendor/htc/pyramid/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-  vendor/htc/pyramid/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
+  vendor/htc/pyramid/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
   vendor/htc/pyramid/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/htc/pyramid/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
   vendor/htc/pyramid/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
@@ -75,7 +74,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
+  vendor/htc/pyramid/proprietary/lib/libllvm-arm.so:/system/lib/libllvm-arm.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/pyramid/proprietary/lib/libril.so:system/lib/libril.so
+  vendor/htc/pyramid/proprietary/app/Camera2.apk:system/app/Camera2.apk \
+  vendor/htc/pyramid/proprietary/app/Camera2.apk:system/priv-app/Camera2.apk
