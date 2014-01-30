@@ -1,0 +1,1 @@
+HTC Pyramid proprietary blobs
